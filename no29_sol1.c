@@ -23,7 +23,7 @@ int main() {
     scanf("%d",&ave[8]);
     printf("Student Number 10 : ");
     scanf("%d",&ave[9]);
-    //scanf("%d %d %d %d %d %d %d %d %d %d",&ave[0],&ave[1],&ave[2],&ave[3],&ave[4],&ave[5],&ave[6],&ave[7],&ave[8],&ave[9]);
+    
     for(int i = 0; i < 10; i++)
     {
         sum += ave[i];       
