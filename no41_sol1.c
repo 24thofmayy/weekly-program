@@ -15,10 +15,10 @@ int max(int num1, int num2)
 {
     if (num1 > num2)
     {
-        printf("Maximum = %d\n",num1 );
+        printf("Maximum = %d",num1 );
     }
     else if (num2 > num1)
     {
-        printf("Maximum = %d\n",num2);
+        printf("Maximum = %d",num2);
     }
 }
