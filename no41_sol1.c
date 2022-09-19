@@ -21,4 +21,9 @@ int max(int num1, int num2)
     {
         printf("Maximum = %d",num2);
     }
+    else if (num1 == num2)
+    {
+        printf("Both numbers are equal.");
+    }
+    
 }
