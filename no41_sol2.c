@@ -16,6 +16,13 @@ int main()
     int num[2] ;
     printf("Enter two numbers: ");
     scanf("%d %d",&num[0],&num[1]);
-    printf("Maximum = %d", largest(num));
+    if (num[0] == num[1])
+    {
+        printf("Both numbers are equal.");
+    }
+    else
+    {
+        printf("Maximum = %d", largest(num));
+    }
     return 0;
 }
